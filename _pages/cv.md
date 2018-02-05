@@ -9,25 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Publications
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
+Awards
 ======
 * Skill 1
 * Skill 2
@@ -36,12 +24,20 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-Publications
+Education
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+* Bachelor of Laws, Github University, 2016
+* Master of Engineering, Github University, 2018
+* Ph.D. in Engineering, Github University, 2021 (expected)
+
+Work experience
+======
+* Summer 2016: Internship
+  * Github University
+  * Duties included: Tagging issues
+  * Supervisor: Professor Git
+
+<!-- 
 Talks
 ======
   <ul>{% for post in site.talks %}
@@ -57,3 +53,4 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+-->
