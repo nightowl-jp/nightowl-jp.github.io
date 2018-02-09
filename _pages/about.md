@@ -1,15 +1,16 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: "About"
+excerpt: "About"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is my home on the web!
+My name is Hiroaoki Yamada. I am a master's student at [Computational Linguistics and Natural Language Processing Laboratory](http://www.cl.cs.titech.ac.jp/), [Department of Computer Science](https://educ.titech.ac.jp/cs/eng/), [School of Computing](https://www.titech.ac.jp/english/about/organization/schools/organization04.html), [Tokyo Institute of Technology](https://www.titech.ac.jp/english/). 
+I am interested in natural language processing and computational linguistics. Especially, I study topics including argument mining and automatic summarization of legal documents.
 
-A data-driven personal website
-======
-test test test
+## Contact
+Email: yamada[dot]h[dot]ax[at]m[dot]titech[dot]ac[dot]jp
+

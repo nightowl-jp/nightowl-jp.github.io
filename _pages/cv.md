@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "C.V."
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,28 +9,28 @@ redirect_from:
 
 {% include base_path %}
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+## Education
+* Bachelor of Laws, Sub-major in Language and Information Science, Waseda University, 2016
+* Master of Engineering, Tokyo Institute of Technology, 2018 (expected)
+<!--* Ph.D. in Engineering, Tokyo Institute of Technology, 2021 (expected)-->
 
-Awards
-======
-* Skill 1
+## Awards
+* Excellent student award, Waseda Univeristy School of Law, Mar. 2016
+* Best Paper in Special Session Award, The 9th International Conference on Knowledge and Systems Engineering, Oct. 2017
 
-Education
-======
-* Bachelor of Laws, Github University, 2016
-* Master of Engineering, Github University, 2018
-* Ph.D. in Engineering, Github University, 2021 (expected)
+## Work experience
+* Internship
+  * Fujitsu Laboratories (Summer 2016)
+    * Duties included: Research and development in the area of NLP
+* Teaching Assistant
+  * Waseda University
+    * Media network center/Global education center assistant 2014-2016
+  * Tokyo Institute of Technology
+    * Procedural programming (basics) 2017
+    * Procedural programming (advanced) 2017
+    * Functional programming 2016-2017
+    * Object-oriented programming 2016
 
-Work experience
-======
-* Summer 2016: Internship
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
 <!-- 
 Talks

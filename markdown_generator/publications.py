@@ -34,9 +34,8 @@ import pandas as pd
 
 # In[3]:
 
-publications = pd.read_csv("publications.tsv", sep="\t", header=0)
-publications
-
+publications_ref = pd.read_csv("publications.tsv", sep="\t", header=0)
+publications_nr = pd.read_csv("publications_nr.tsv", sep="\t", header=0)
 
 # ## Escape special characters
 # 
@@ -50,6 +49,7 @@ html_escape_table = {
     "'": "&apos;"
     }
 
+
 def html_escape(text):
     """Produce entities within text."""
     return "".join(html_escape_table.get(c,c) for c in text)
@@ -60,49 +60,71 @@ def html_escape(text):
 # This is where the heavy lifting is done. This loops through all the rows in the TSV dataframe, then starts to concatentate a big string (```md```) that contains the markdown for each type. It does the YAML metadata first, then does the description for the individual page. If you don't want something to appear (like the "Recommended citation")
 
 # In[5]:
+def publicationPageGenerator(category):
+    if category == "ref":
+        publications = publications_ref
+        collection_cat = """collection: publications"""
+    elif category == "nonref":
+        publications = publications_nr
+        collection_cat = """collection: publications_nr"""
+    
+    for row, item in publications.iterrows():
+        
+        md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
+        html_filename = str(item.pub_date) + "-" + item.url_slug
+        year = item.pub_date[:4]
+        
+        ## YAML variables
+        
+        md = "---\ntitle: \""   + item.title + '"\n'
+        
+        md += collection_cat
+        
+        md += """\npermalink: /publication/""" + html_filename
+        
+        if len(str(item.excerpt)) > 5:
+            md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
+        
+        md += "\ndate: " + str(item.pub_date) 
+        
+        md += "\nvenue: '" + html_escape(item.venue) + "'"
+        
+        if len(str(item.paper_url)) > 5:
+            md += "\npaperurl: '" + item.paper_url + "'"
+        
+        md += "\ncitation: '" + html_escape(item.citation) + "'"
+        
+        md += "\n---"
+        
+        ## Markdown description for individual page
+        if len(str(item.excerpt)) > 5:
+            md += "\n**Abstract**   \n" + html_escape(item.excerpt) + "\n"
+            
+        md += "\n**Recommended citation:**   \n" + item.citation
+
+        if len(str(item.paper_url)) > 5:
+            md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
+        
+        md_filename = os.path.basename(md_filename)
+        
+        if category == "ref":
+            with open("../_publications/" + md_filename, 'w') as f:
+                f.write(md)
+        elif category == "nonref":
+            with open("../_publications_nr/" + md_filename, 'w') as f:
+                f.write(md)
+    
+    return None
+
 
 import os
-for row, item in publications.iterrows():
-    
-    md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
-    html_filename = str(item.pub_date) + "-" + item.url_slug
-    year = item.pub_date[:4]
-    
-    ## YAML variables
-    
-    md = "---\ntitle: \""   + item.title + '"\n'
-    
-    md += """collection: publications"""
-    
-    md += """\npermalink: /publication/""" + html_filename
-    
-    if len(str(item.excerpt)) > 5:
-        md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
-    
-    md += "\ndate: " + str(item.pub_date) 
-    
-    md += "\nvenue: '" + html_escape(item.venue) + "'"
-    
-    if len(str(item.paper_url)) > 5:
-        md += "\npaperurl: '" + item.paper_url + "'"
-    
-    md += "\ncitation: '" + html_escape(item.citation) + "'"
-    
-    md += "\n---"
-    
-    ## Markdown description for individual page
-    
-    if len(str(item.paper_url)) > 5:
-        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
-        
-    if len(str(item.excerpt)) > 5:
-        md += "\n" + html_escape(item.excerpt) + "\n"
-        
-    md += "\nRecommended citation: " + item.citation
-    
-    md_filename = os.path.basename(md_filename)
-       
-    with open("../_publications/" + md_filename, 'w') as f:
-        f.write(md)
+import sys
 
 
+def main():
+    category = sys.argv[1]
+    publicationPageGenerator(category)
+    return True
+
+if __name__ == '__main__':
+    main()
