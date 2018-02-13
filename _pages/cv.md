@@ -26,10 +26,10 @@ redirect_from:
   * Waseda University
     * Media network center/Global education center assistant 2014-2016
   * Tokyo Institute of Technology
-    * Procedural programming (basics) 2017
-    * Procedural programming (advanced) 2017
-    * Functional programming 2016-2017
-    * Object-oriented programming 2016
+    * Procedural Programming Fundamentals 2017
+    * Advanced Procedural Programming 2017
+    * Functional Programming Fundamentals 2017
+    * Experiments on Computer Science II 2016
 
 
 <!-- 
