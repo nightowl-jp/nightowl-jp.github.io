@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-My name is Hiroaoki Yamada. I am a master's student at [Computational Linguistics and Natural Language Processing Laboratory](http://www.cl.cs.titech.ac.jp/), [Department of Computer Science](https://educ.titech.ac.jp/cs/eng/), [School of Computing](https://www.titech.ac.jp/english/about/organization/schools/organization04.html), [Tokyo Institute of Technology](https://www.titech.ac.jp/english/). 
+My name is Hiroaoki Yamada (山田 寛章). I am a master's student at [Computational Linguistics and Natural Language Processing Laboratory](http://www.cl.cs.titech.ac.jp/), [Department of Computer Science](https://educ.titech.ac.jp/cs/eng/), [School of Computing](https://www.titech.ac.jp/english/about/organization/schools/organization04.html), [Tokyo Institute of Technology](https://www.titech.ac.jp/english/). 
 I am interested in natural language processing and computational linguistics. Especially, I study topics including argument mining and automatic summarization of legal documents.
 
 ## Contact
-Email: yamada[dot]h[dot]ax[at]m[dot]titech[dot]ac[dot]jp
+Email: <img src="/images/eaddress.png" width="250px">
 
