@@ -12,5 +12,6 @@ My name is Hiroaoki Yamada (山田 寛章). I am a master's student at [Computat
 I am interested in natural language processing and computational linguistics. Especially, I study topics including argument mining and automatic summarization of legal documents.
 
 ## Contact
+Tokyo Institute of Technology, Ookayama Campus, W8E Building 6F (Tokunaga-lab)  
 Email: <img src="/images/eaddress.png" width="250px">
-Tokyo Institute of Technology, Ookayama Campus, W8E Building 6F (Tokunaga-lab).
+
