@@ -11,8 +11,8 @@ redirect_from:
 
 ## Education
 * Bachelor of Laws, Sub-major in Language and Information Science, Waseda University, 2016
-* Master of Engineering, Tokyo Institute of Technology, 2018 (expected)
-<!--* Ph.D. in Engineering, Tokyo Institute of Technology, 2021 (expected)-->
+* Master of Engineering, Tokyo Institute of Technology, 2018
+* Ph.D. in Engineering, Tokyo Institute of Technology, 2021 (expected)
 
 ## Awards
 * Excellent student award, Waseda Univeristy School of Law, Mar. 2016
