@@ -17,6 +17,8 @@ redirect_from:
 ## Awards
 * Excellent student award, Waseda Univeristy School of Law, Mar. 2016
 * Best Paper in Special Session Award, The 9th International Conference on Knowledge and Systems Engineering, Oct. 2017
+* JASSO Scholarship for Top 10% Excellent Master Students, May. 2018
+  * 日本学生支援機構第一種奨学金　全額返還免除
 
 ## Work experience
 * Internship
