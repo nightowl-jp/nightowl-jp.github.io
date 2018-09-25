@@ -28,10 +28,14 @@ redirect_from:
   * Waseda University
     * Media network center/Global education center assistant 2014-2016
   * Tokyo Institute of Technology
-    * Procedural Programming Fundamentals 2017
-    * Advanced Procedural Programming 2017
-    * Functional Programming Fundamentals 2017
-    * Experiments on Computer Science II 2016
+    * Procedural Programming Fundamentals 2017-
+    * Advanced Procedural Programming 2017- 
+    * Functional Programming Fundamentals 2017- 
+    * Experiments on Computer Science II 2016]
+
+## Visit
+* Cambridge Computer Laboratory - University of Cambridge (Summer 2018)
+  * Short research visiting to study on summarization technology
 
 
 <!-- 
