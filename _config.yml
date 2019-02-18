@@ -10,8 +10,8 @@ locale                   : "en-US"
 title                    : "Hiroaki YAMADA"
 title_separator          : "-"
 name                     : &name "Hiroaki Yamada"
-description              : &description "Doctoral student at Tokyo Institute of Technology"
-url                      : https://h-yamada.jp # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "PhD student at Tokyo Institute of Technology"
+url                      : http://localhost:4000 #https://h-yamada.jp # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nightowl-jp.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Hiroaki Yamada"
   avatar           : "profile.png"
-  bio              : "Doctoral student at Tokyo Institute of Technology, majoring in computational linguistics and natural language processing."
+  bio              : "PhD student at Tokyo Institute of Technology, majoring in computational linguistics and natural language processing."
   location         : "Tokyo, Japan"
   employer         :
   googlescholar    : https://scholar.google.co.jp/citations?user=qnWZFpoAAAAJ
@@ -98,7 +98,7 @@ author:
   instagram        :
   lastfm           :
   linkedin         : yamada-ba557b174
-  orcid            : 
+  orcid            : http://orcid.org/0000-0002-1963-958X
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -140,6 +140,7 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - vendor/
 keep_files:
   - .git
   - .svn
@@ -176,6 +177,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications_nr:
+    output: true
+    permalink: /:collection/:path/
+  publications_jn:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -228,6 +232,15 @@ defaults:
   - scope:
       path: ""
       type: publications_nr
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications_jn
+  - scope:
+      path: ""
+      type: publications_jn
     values:
       layout: single
       author_profile: true
