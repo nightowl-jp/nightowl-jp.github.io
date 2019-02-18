@@ -11,6 +11,12 @@ author_profile: true
 
 {% include base_path %}
 
+
+## Journals
+  <ul>{% for post in site.publications_jn reversed %}
+    {% include archive-single-cv_simple.html %}
+  {% endfor %}</ul>
+
 ## International Conferences and Workshops (refereed)
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv_simple.html %}

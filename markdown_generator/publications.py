@@ -17,13 +17,9 @@
 # - `url_slug` will be the descriptive part of the .md file and the permalink URL for the page about the paper. The .md file will be `YYYY-MM-DD-[url_slug].md` and the permalink will be `https://[yourdomain]/publications/YYYY-MM-DD-[url_slug]`
 
 
-# ## Import pandas
-# 
-# We are using the very handy pandas library for dataframes.
-
-# In[2]:
-
 import pandas as pd
+import os
+import sys
 
 
 # ## Import TSV
@@ -32,22 +28,19 @@ import pandas as pd
 # 
 # I found it important to put this data in a tab-separated values format, because there are a lot of commas in this kind of data and comma-separated values can get messed up. However, you can modify the import statement, as pandas also has read_excel(), read_json(), and others.
 
-# In[3]:
-
 publications_ref = pd.read_csv("publications.tsv", sep="\t", header=0)
 publications_nr = pd.read_csv("publications_nr.tsv", sep="\t", header=0)
+publications_jn = pd.read_csv("publications_jn.tsv", sep="\t", header=0)
 
 # ## Escape special characters
 # 
 # YAML is very picky about how it takes a valid string, so we are replacing single and double quotes (and ampersands) with their HTML encoded equivilents. This makes them look not so readable in raw format, but they are parsed and rendered nicely.
 
-# In[4]:
-
 html_escape_table = {
     "&": "&amp;",
     '"': "&quot;",
     "'": "&apos;"
-    }
+}
 
 
 def html_escape(text):
@@ -67,6 +60,9 @@ def publicationPageGenerator(category):
     elif category == "nonref":
         publications = publications_nr
         collection_cat = """collection: publications_nr"""
+    elif category == "journal":
+        publications = publications_jn
+        collection_cat = """collection: publications_jn"""
     
     for row, item in publications.iterrows():
         
@@ -113,12 +109,11 @@ def publicationPageGenerator(category):
         elif category == "nonref":
             with open("../_publications_nr/" + md_filename, 'w') as f:
                 f.write(md)
+        elif category == "journal":
+            with open("../_publications_jn/" + md_filename, 'w') as f:
+                f.write(md)
     
     return None
-
-
-import os
-import sys
 
 
 def main():
