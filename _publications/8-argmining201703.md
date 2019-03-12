@@ -14,8 +14,4 @@ We propose a method for the annotation of Japanese civil judgment documents, wit
 **Recommended citation:**   
 Hiroaki Yamada, Simone Teufel and Takenobu Tokunaga. 2017. Annotation of argument structure in Japanese legal documents.  <i>In Proceedings of the 4th Workshop on Argument Mining (ArgMining2017)</i>. pages 22-31.
 
-**Misc.**   
-If you are interested in our annotated data which is used in this paper, please contact via e-mail.  
-<img src="/images/eaddress.png" width="250px">
-
 <a href='http://www.aclweb.org/anthology/W17-5103'>Download paper here</a>
