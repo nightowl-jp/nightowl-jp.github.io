@@ -32,7 +32,7 @@ redirect_from:
     * Advanced Procedural Programming 2017- 
     * Functional Programming Fundamentals 2017-
     * Research opportunity in Laboratories (CSC) 2018
-* Development projects (part-time job)
+* Development projects as a contractor
   * GUI application for dual task experiment in a psychology project
   * Several NLP related projects (keyword extraction, text classification, etc.)
 
