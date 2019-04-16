@@ -141,6 +141,11 @@ exclude:
   - README
   - tmp
   - vendor/
+  - markdown_generator
+  - _pages/portfolio.html
+  - _pages/non-menu-page.md
+  - _pages/teaching.html
+  - _teaching
 keep_files:
   - .git
   - .svn
@@ -186,7 +191,7 @@ collections:
     output: false
     permalink: /:collection/:path/
   talks:
-    output: false
+    output: true
     permalink: /:collection/:path/
 
 
