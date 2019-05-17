@@ -6,12 +6,12 @@ excerpt: 'We present an annotation scheme describing the argument structure of j
 date: 2019/2/15
 venue: 'Artificial Intelligence and Law'
 paperurl: 'https://doi.org/10.1007/s10506-019-09242-3'
-citation: 'Hiroaki Yamada, Simone Teufel and Takenobu Tokunaga. 2019. Building a Corpus of Legal Argumentation in Japanese Judgement Documents: Towards Structure-Based Summarisation. <i>Artificial Intelligence and Law</i>. Springer Netherlands, 1-30. doi:10.1007/s10506-019-09242-3.'
+citation: 'Hiroaki Yamada, Simone Teufel and Takenobu Tokunaga. 2019. Building a Corpus of Legal Argumentation in Japanese Judgement Documents: Towards Structure-Based Summarisation. <i>Artificial Intelligence and Law</i>. Springer Netherlands, 27(2):141–170.'
 ---
 **Abstract**   
 We present an annotation scheme describing the argument structure of judgement documents, a central construct in Japanese law. To support the final goal of this work, namely summarisation aimed at the legal professions, we have designed blueprint models of summaries of various granularities, and our annotation model in turn is fitted around the information needed for the summaries. In this paper we report results of a manual annotation study, showing that the annotation is stable. The annotated corpus we created contains 89 documents (37,673 sentences; 2,528,604 characters). We also designed and implemented the first two stages of an algorithm for the automatic extraction of argument structure, and present evaluation results.
 
 **Recommended citation:**   
-Hiroaki Yamada, Simone Teufel and Takenobu Tokunaga. 2019. Building a Corpus of Legal Argumentation in Japanese Judgement Documents: Towards Structure-Based Summarisation. <i>Artificial Intelligence and Law</i>. Springer Netherlands, 1-30. doi:10.1007/s10506-019-09242-3.
+Hiroaki Yamada, Simone Teufel and Takenobu Tokunaga. 2019. Building a Corpus of Legal Argumentation in Japanese Judgement Documents: Towards Structure-Based Summarisation. <i>Artificial Intelligence and Law</i>. Springer Netherlands, 27(2):141–170.
 
 <a href='https://doi.org/10.1007/s10506-019-09242-3'>Download paper here</a>
