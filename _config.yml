@@ -254,6 +254,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _publications_thesis
+  - scope:
+      path: ""
+      type: publications_thesis
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _portfolio
   - scope:
       path: ""
