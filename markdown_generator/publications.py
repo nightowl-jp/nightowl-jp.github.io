@@ -31,6 +31,7 @@ import sys
 publications_ref = pd.read_csv("publications.tsv", sep="\t", header=0)
 publications_nr = pd.read_csv("publications_nr.tsv", sep="\t", header=0)
 publications_jn = pd.read_csv("publications_jn.tsv", sep="\t", header=0)
+publications_thesis = pd.read_csv("publications_thesis.tsv", sep="\t", header=0)
 
 # ## Escape special characters
 # 
@@ -63,6 +64,9 @@ def publicationPageGenerator(category):
     elif category == "journal":
         publications = publications_jn
         collection_cat = """collection: publications_jn"""
+    elif category == "thesis":
+        publications = publications_thesis
+        collection_cat = """collection: publications_thesis"""
     
     for row, item in publications.iterrows():
         
@@ -111,6 +115,9 @@ def publicationPageGenerator(category):
                 f.write(md)
         elif category == "journal":
             with open("../_publications_jn/" + md_filename, 'w') as f:
+                f.write(md)
+        elif category == "thesis":
+            with open("../_publications_thesis/" + md_filename, 'w') as f:
                 f.write(md)
     
     return None

@@ -187,6 +187,9 @@ collections:
   publications_jn:
     output: true
     permalink: /:collection/:path/
+  publications_thesis:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: false
     permalink: /:collection/:path/
