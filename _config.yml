@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Hiroaki YAMADA"
 title_separator          : "-"
 name                     : &name "Hiroaki Yamada"
-description              : &description "Postdoc researcher at Tokunaga-lab, Tokyo Tech"
+description              : &description "Assistant Professor at Tokyo Tech"
 url                      : https://h-yamada.jp # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nightowl-jp.github.io"
@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Hiroaki Yamada"
   avatar           : "profile.png"
-  bio              : "Postdoc researcher at Tokunaga-lab, Tokyo Tech / Research Fellow of JSPS, researching computational linguistics and natural language processing."
+  bio              : "Assistant　Professor at Tokyo Institute of Technology, researching computational linguistics and natural language processing."
   location         : "Tokyo, Japan"
   employer         :
   googlescholar    : https://scholar.google.co.jp/citations?user=qnWZFpoAAAAJ
