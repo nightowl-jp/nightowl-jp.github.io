@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Hiroaoki Yamada (山田 寛章). I am an Assistant Professor at [Tokunaga-Lab (徳永研究室)](http://www.cl.c.titech.ac.jp/), [School of Computing (情報理工学院)](https://www.titech.ac.jp/english/about/organization/schools/organization04.html), [Tokyo Institute of Technology (東京工業大学)](https://www.titech.ac.jp/english/). 
+My name is Hiroaki Yamada (山田 寛章). I am an Assistant Professor at [Tokunaga-Lab (徳永研究室)](http://www.cl.c.titech.ac.jp/), [School of Computing (情報理工学院)](https://www.titech.ac.jp/english/about/organization/schools/organization04.html), [Tokyo Institute of Technology (東京工業大学)](https://www.titech.ac.jp/english/). 
 I am interested in natural language processing and computational linguistics. Especially, I study topics including argument mining and automatic summarization of legal documents.
 
 ## Contact
