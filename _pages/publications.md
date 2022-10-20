@@ -16,7 +16,7 @@ author_profile: true
     {% include archive-single-cv_simple.html %}
   {% endfor %}</ul>
 
-## Journals
+## Journals (refereed)
   <ul>{% for post in site.publications_jn reversed %}
     {% include archive-single-cv_simple.html %}
   {% endfor %}</ul>
@@ -26,7 +26,7 @@ author_profile: true
     {% include archive-single-cv_simple.html %}
   {% endfor %}</ul>
 
-## Domestic Conferences
+## Non-refereed papers
   <ul>{% for post in site.publications_nr reversed %}
     {% include archive-single-cv_simple.html %}
   {% endfor %}</ul>
