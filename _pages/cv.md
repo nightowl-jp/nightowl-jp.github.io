@@ -20,12 +20,13 @@ redirect_from:
   * Thesis: "Extracting argument structure from Japanese judgment documents for structure-based summarisation"
 
 ## Grants
-* [JSPS KAKENHI Grant Number 20H01292 (PI: Yasuyo Sawaki), Apr. 2022 - Mar. 2023](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-20H01292/)
-* [JST ACT-X Grant Number JPMJAX20AM (PI: Hiroaki Yamada), Dec. 2020 - Mar. 2023](https://projectdb.jst.go.jp/grant/JST-PROJECT-20348159/)
+* JST PRESTO Grant Number TBD (PI: Hiroaki Yamada), Oct. 2023 - Mar. 2027
+* [JSPS KAKENHI Grant Number 20H01292 (PI: Yasuyo Sawaki), Apr. 2022 - Mar. 2024](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-20H01292/)
+* [JST ACT-X Grant Number JPMJAX20AM (PI: Hiroaki Yamada), Dec. 2020 - Mar. 2024](https://projectdb.jst.go.jp/grant/JST-PROJECT-20348159/)
 * [JSPS KAKENHI Grant Number 20J14385 (PI: Hiroaki Yamada), Apr. 2020 - Mar. 2022](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-20J14385/)
 
 ## Awards
-* Top 10 excellent students award, Waseda Univeristy School of Law, Mar. 2016
+* Top 10 excellent students award, Waseda University School of Law, Mar. 2016
 * Best Paper in Special Session Award, The 9th International Conference on Knowledge and Systems Engineering, Oct. 2017
 * JASSO Scholarship for Excellent Students, May. 2018 (日本学生支援機構第一種奨学金　全額返還免除)
 * JASSO Scholarship for Excellent Students, May. 2020 (日本学生支援機構第一種奨学金　全額返還免除)
