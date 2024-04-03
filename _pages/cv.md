@@ -20,17 +20,17 @@ redirect_from:
   * Thesis: "Extracting argument structure from Japanese judgment documents for structure-based summarisation"
 
 ## Grants
-* JST PRESTO Grant Number JPMJPR236B (PI: Hiroaki Yamada), Oct. 2023 - Mar. 2027
+* [JST PRESTO Grant Number JPMJPR236B (PI: Hiroaki Yamada), Oct. 2023 - Mar. 2027](https://projectdb.jst.go.jp/grant/JST-PROJECT-23826263/)
 * [JSPS KAKENHI Grant Number 20H01292 (PI: Yasuyo Sawaki), Apr. 2022 - Mar. 2024](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-20H01292/)
+* [Support Center for Advanced Telecommunications Technology Research (SCAT) Grant (PI: Hiroaki Yamada), Apr. 2023 - Mar. 2026](https://www.scat.or.jp/cms/wp-content/uploads/2021/04/henkyuhijosei2023_6_10.pdf),
 * [JST ACT-X Grant Number JPMJAX20AM (PI: Hiroaki Yamada), Dec. 2020 - Mar. 2024](https://projectdb.jst.go.jp/grant/JST-PROJECT-20348159/)
 * [JSPS KAKENHI Grant Number 20J14385 (PI: Hiroaki Yamada), Apr. 2020 - Mar. 2022](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-20J14385/)
 
 ## Awards
-* Top 10 excellent students award, Waseda University School of Law, Mar. 2016
+* [言語処理学会第30回年次大会委員特別賞（「日本語不法行為事件データセットの構築
+」）](https://www.anlp.jp/nlp2024/award.html#committee)
 * Best Paper in Special Session Award, The 9th International Conference on Knowledge and Systems Engineering, Oct. 2017
-* JASSO Scholarship for Excellent Students, May. 2018 (日本学生支援機構第一種奨学金　全額返還免除)
-* JASSO Scholarship for Excellent Students, May. 2020 (日本学生支援機構第一種奨学金　全額返還免除)
-* Japan Society for the Promotion of Science Research Fellowship for Young Scientists (DC2), Mar. 2020
+* Top 10 excellent students award, Waseda University School of Law, Mar. 2016
 
 ## Visit
 * Cambridge Computer Laboratory - University of Cambridge (Summer 2018)
