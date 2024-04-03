@@ -29,7 +29,7 @@ redirect_from:
 ## Awards
 * [言語処理学会第30回年次大会委員特別賞「日本語不法行為事件データセットの構築」](https://www.anlp.jp/nlp2024/award.html#committee)
 * [言語処理学会第29回年次大会委員特別賞「参照例を使わないキャッチコピーの自動評価」](https://www.anlp.jp/nlp2023/award.html#committee)
-* [言語処理学会第29回年次大会委員サイバーエージェント賞「参照例を使わないキャッチコピーの自動評価」](https://www.anlp.jp/nlp2023/award.html#sponsor)
+* [言語処理学会第29回年次大会サイバーエージェント賞「参照例を使わないキャッチコピーの自動評価」](https://www.anlp.jp/nlp2023/award.html#sponsor)
 * Best Paper in Special Session Award, The 9th International Conference on Knowledge and Systems Engineering, Oct. 2017
 * Top 10 excellent students award, Waseda University School of Law, Mar. 2016
 
