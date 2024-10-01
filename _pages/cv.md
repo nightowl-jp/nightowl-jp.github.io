@@ -21,6 +21,7 @@ redirect_from:
   * Thesis: "Extracting argument structure from Japanese judgment documents for structure-based summarisation"
 
 ## Grants
+* [JSPS KAKENHI Grant Number 24K00095 (PI: Yasuyo Sawaki), Apr. 2024 - Mar. 2028](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-24K00095/)
 * [JST PRESTO Grant Number JPMJPR236B (PI: Hiroaki Yamada), Oct. 2023 - Mar. 2027](https://projectdb.jst.go.jp/grant/JST-PROJECT-23826263/)
 * [JSPS KAKENHI Grant Number 20H01292 (PI: Yasuyo Sawaki), Apr. 2022 - Mar. 2024](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-20H01292/)
 * [Support Center for Advanced Telecommunications Technology Research (SCAT) Grant (PI: Hiroaki Yamada), Apr. 2023 - Mar. 2026](https://www.scat.or.jp/cms/wp-content/uploads/2021/04/henkyuhijosei2023_6_10.pdf),
