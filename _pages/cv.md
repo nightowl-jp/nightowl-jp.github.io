@@ -10,7 +10,8 @@ redirect_from:
 {% include base_path %}
 
 ## Professional experience
-* Apr. 2022 - now       : Assistant Professor,  Tokyo Institute of Technology
+* Oct. 2024 - now       : Assistant Professor,  Institute of Science Tokyo
+* Apr. 2022 - Sep. 2024 : Assistant Professor,  Tokyo Institute of Technology
 * Apr. 2021 - Mar. 2022 : Postdoctoral Researcher, Tokyo Institute of Technology (JSPS PD)
 
 ## Education
