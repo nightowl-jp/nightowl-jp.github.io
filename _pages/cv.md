@@ -28,12 +28,13 @@ redirect_from:
 * [JST ACT-X Grant Number JPMJAX20AM (PI: Hiroaki Yamada), Dec. 2020 - Mar. 2024](https://projectdb.jst.go.jp/grant/JST-PROJECT-20348159/)
 * [JSPS KAKENHI Grant Number 20J14385 (PI: Hiroaki Yamada), Apr. 2020 - Mar. 2022](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-20J14385/)
 
-## Awards
+## Awards (since 2017)
+* [人工知能学会第38回全国大会優秀賞「不法行為判断予測データセット構築におけるELSI課題」](https://www.ai-gakkai.or.jp/about/award/jsai_award-conf/)
 * [言語処理学会第30回年次大会委員特別賞「日本語不法行為事件データセットの構築」](https://www.anlp.jp/nlp2024/award.html#committee)
 * [言語処理学会第29回年次大会委員特別賞「参照例を使わないキャッチコピーの自動評価」](https://www.anlp.jp/nlp2023/award.html#committee)
 * [言語処理学会第29回年次大会サイバーエージェント賞「参照例を使わないキャッチコピーの自動評価」](https://www.anlp.jp/nlp2023/award.html#sponsor)
 * Best Paper in Special Session Award, The 9th International Conference on Knowledge and Systems Engineering, Oct. 2017
-* Top 10 excellent students award, Waseda University School of Law, Mar. 2016
+<!--* Top 10 excellent students award, Waseda University School of Law, Mar. 2016 -->
 
 ## Visit
 * Cambridge Computer Laboratory - University of Cambridge (Summer 2018)
